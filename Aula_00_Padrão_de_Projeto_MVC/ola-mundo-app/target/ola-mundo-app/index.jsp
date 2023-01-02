@@ -1,28 +1,25 @@
+<%@ page import="java.util.*, com.ola.mundo.dao.*, com.ola.mundo.model.*" %>
 <html>
 
 <head><title>Meu primeiro JSP</title></head>
 
 <body>
-    <%-- Comentário: nossa primeira página JSP --%>
-
-    <%
-        String mensagem = "Bem vindo ao sistema em JSP!";
-
-        out.println(mensagem);
-    %>
-
-    <br/>
-
-    <%
-        String desenvolvido = "Desenvolvido por Alexandre Jr.";
-
-        out.println(desenvolvido);
-    %>
-
-    <br/>
-
-    <%
-        System.out.println("Tudo foi executado!");
-    %>
+    <table>
+        <%
+          ContatoDao dao = new ContatoDao();
+          List<Contato> contatos = dao.getLista();
+    
+          for (Contato contato : contatos) {
+        %>
+          <tr>
+            <td><%=contato.getNome() %></td>
+            <td><%=contato.getEmail() %></td>
+            <td><%=contato.getEndereco() %></td>
+            <td><%=contato.getDataNascimento() %></td>
+          </tr>
+        <%
+          }
+        %>
+      </table>
 </body>
 </html>
