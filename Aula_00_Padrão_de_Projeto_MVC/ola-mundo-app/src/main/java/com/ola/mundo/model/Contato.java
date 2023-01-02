@@ -1,13 +1,13 @@
 package com.ola.mundo.model;
 
-import java.time.LocalDate;
+import java.util.Calendar;
 
 public class Contato {
 
     private String nome;
     private String email;
     private String endereco;
-    private LocalDate dataNascimento;
+    private Calendar dataNascimento;
 
     public String getNome() {
         return nome;
@@ -33,11 +33,11 @@ public class Contato {
         this.endereco = endereco;
     }
 
-    public LocalDate getDataNascimento() {
+    public Calendar getDataNascimento() {
         return dataNascimento;
     }
 
-    public void setDataNascimento(LocalDate dataNascimento) {
+    public void setDataNascimento(Calendar dataNascimento) {
         this.dataNascimento = dataNascimento;
     }
 

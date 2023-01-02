@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ page import="java.util.*, com.ola.mundo.dao.*, com.ola.mundo.model.*" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
 <%@ page isELIgnored="false"%>
 
 <html>
@@ -43,7 +44,8 @@
                 </c:otherwise>
               </c:choose>
             </td>
-            <td>${contato.dataNascimento}</td>
+
+            <td><fmt:formatDate value="${contato.dataNascimento.time}" pattern="dd/MM/yyyy" /></td>
           </tr>
       </c:forEach>
     </table>
