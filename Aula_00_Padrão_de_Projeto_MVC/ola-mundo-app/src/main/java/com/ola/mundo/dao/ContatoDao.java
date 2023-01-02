@@ -28,6 +28,22 @@ public class ContatoDao {
         contato2.setDataNascimento(LocalDate.of(1962, 1, 8));
 
         lista.add(contato2);
+
+        Contato contato3 = new Contato();
+
+        contato3.setNome("Rebeca Valgueiro");
+        contato3.setEndereco("Rua GHI, n. 789");
+        contato3.setDataNascimento(LocalDate.of(1995, 1, 8));
+
+        lista.add(contato3);
+
+        Contato contato4 = new Contato();
+
+        contato4.setNome("Edilene Valgueiro");
+        contato4.setEmail("edilene@dev.com");
+        contato4.setDataNascimento(LocalDate.of(1962, 1, 8));
+
+        lista.add(contato4);
     }
 
     public List<Contato> getLista() {
