@@ -1,6 +1,4 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<%@ page import="java.util.*, com.ola.mundo.dao.*, com.ola.mundo.model.*" %>
-
 <html>
 
 <head>
@@ -10,21 +8,26 @@
 
 <body>
     <table>
-        <%
-          ContatoDao dao = new ContatoDao();
-          List<Contato> contatos = dao.getLista();
-    
-          for (Contato contato : contatos) {
-        %>
-          <tr>
-            <td><%=contato.getNome() %></td>
-            <td><%=contato.getEmail() %></td>
-            <td><%=contato.getEndereco() %></td>
-            <td><%=contato.getDataNascimento() %></td>
-          </tr>
-        <%
-          }
-        %>
-      </table>
+    <%-- Comentário: nossa primeira página JSP --%>
+
+      <%
+        String mensagem = "Bem vindo(a)!";
+
+        out.println(mensagem);
+      %>
+
+      <br/>
+
+      <%
+        String desenvolvido = "Desenvolvido por Alexandre Jr.";
+
+        out.println(desenvolvido);
+      %>
+
+      <br/>
+
+      <%
+        System.out.println("Tudo foi executado!");
+      %>
 </body>
 </html>
