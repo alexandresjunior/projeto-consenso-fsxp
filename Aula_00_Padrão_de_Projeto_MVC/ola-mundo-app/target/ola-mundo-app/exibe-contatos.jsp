@@ -11,6 +11,7 @@
 </head>
 
 <body>
+    <c:import url="cabecalho.jsp" />
     <table>
       <!-- 
         A tag 'jsp:useBean' é capaz de instanciar determinada classe 
@@ -46,5 +47,6 @@
           </tr>
       </c:forEach>
     </table>
+    <c:import url="rodape.jsp" />
 </body>
 </html>
