@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN" "http://jakarta.apache.org/struts/dtds/struts-config_1_2.dtd">
+<struts-config>
+    <action-mappings>
+        <action path="/registro" type="com.struts.framework.RegistroAction">
+            <forward name="sucesso" path="/confirmacao.jsp" />
+        </action>
+    </action-mappings>
+</struts-config>
