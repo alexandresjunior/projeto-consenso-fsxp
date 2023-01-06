@@ -6,6 +6,7 @@ public class Exer01{
         double a = entrada.nextDouble();
         double b = entrada.nextDouble();
         double r = media(a,b);
+        entrada.close();
         System.out.printf("MÉDIA = %.5f %n", r);
     }
     public static double media(double a, double b){

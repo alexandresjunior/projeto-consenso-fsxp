@@ -7,6 +7,7 @@ public class Exer03 {
         double f = entrada.nextDouble();
         double c = entrada.nextDouble();
         double s = calcComissao(c) + f;
+        entrada.close();
         System.out.printf("TOTAL = R$ %.2f %n", s);
     }
     public static double calcComissao(double c){

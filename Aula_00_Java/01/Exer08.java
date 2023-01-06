@@ -5,6 +5,7 @@ public class Exer08 {
         Scanner entrada = new Scanner(System.in);
         double a = entrada.nextDouble();
         double b = entrada.nextDouble();
+        entrada.close();
         calcImpost(a, b);
     }
     public static void calcImpost(double a, double b){

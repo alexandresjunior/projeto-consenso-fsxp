@@ -12,6 +12,7 @@ public class Exer04 {
         if (c > maior) maior = c;
         if (b < menor) menor = b;
         if (c < menor) menor = c;
+        entrada.close();
         System.out.println("MAIOR = " + maior + "\nMENOR = 14 " + menor);
     }
 }

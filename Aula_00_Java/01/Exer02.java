@@ -7,6 +7,7 @@ public class Exer02 {
         int a = entrada.nextInt();
         double b = entrada.nextDouble();
         double r = calcSalario(a, b);
+        entrada.close();
         System.out.printf("NÚMERO = "+ n + "\nSALÁRIO = R$ %.2f %n", r);
     }
     public static double calcSalario(int h, double vh){

@@ -4,6 +4,7 @@ public class Exer07 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         int a = entrada.nextInt();
+        entrada.close();
         calcDiv(a);
     }
     public static void calcDiv(int a){
