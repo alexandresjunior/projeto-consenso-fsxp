@@ -9,4 +9,5 @@ public class Funcionario {
     private double salario;
     private int telefone;
     private List<Dependente> dependentes;
+    public void adicionarDependente(Dependente dependete) {dependentes.add(dependete)} ; 
 }
