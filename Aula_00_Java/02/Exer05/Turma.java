@@ -1,10 +1,7 @@
 package Exer05;
 
 public class Turma {
-    public Turma(){
-        qtdAluno++;
-    }
-    private int qtdAluno;
+    private List<Aluno> Alunos;
     private Integer cod;
     private Integer turno;
     private Integer sala;
