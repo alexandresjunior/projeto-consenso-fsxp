@@ -18,3 +18,4 @@
 3. Criação das entidades na camada model.
 4. Criação da camada service.
 5. Criação das rotas na camada controller.
+6. Link para documentação oficial com exemplo de [Como construir um Web Service Restful](https://spring.io/guides/gs/rest-service/)
