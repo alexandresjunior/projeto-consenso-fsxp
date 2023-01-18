@@ -1,0 +1,52 @@
+RESPOSTAS:
+
+8). 
+V - Java possui menos de 9 tipos primitivos.
+F - Não é possível comparar tipos primitivos utilizando o operador “==”.
+V - Atributos de interface são sempre final.
+V - Palavras reservadas do Java são aquelas que não podem ser usadas para nomear membros de classes.
+F - Em Java toda variável, sem exceção, deve ser declarada. 
+V - As subclasses podem adicionar membros próprios
+X - Variáveis polimórficas podem referenciar objetos de uma classe (subclasse) da superclasse declarada.
+V - Em métodos, o modificador abstract obriga que suas subclasses não abstratas implementem o método.
+F - Um método definido como final pode ser sobreposto apenas por uma classe descendente.
+F - Classe com modificador final só pode ser especializada por herança.
+V - O modificador final estabelece que um atributo não pode ter seu valor modificado
+V - A visibilidade definida por public permite que um determinado atributo seja acessível a partir de quaisquer métodos, objetos e classes.
+V - O modificador protected não restringe acesso oriundo de outro pacote
+V - Os atributos e métodos privados de uma classe são acessíveis apenas nos métodos da própria classe.
+F - A estrutura switch aceita qualquer tipo de dado primitivo do Java.
+V - Encapsulamento consiste em proteger os atributos de acessos e modificações não controladas, centralizando o gerenciamento e a validação dos dados antes de serem armazenados pelos objetos.
+V - O encapsulamento permite definir o grau de visibilidade dos atributos de uma classe, estabelecendo restrições e permissões por métodos ao sistema.
+V - Não se implementa o encapsulamento em interface.
+V - A implementação de uma interface obriga a classe a implementar todos os métodos definidos, a não ser que a classe seja definida como abstrata, podendo assim deixar a implementação para as suas subclasses não abstratas.
+V - O polimorfismo de sobrecarga pode ser utilizado para distinguir, em uma determinada classe, dois métodos com o mesmo nome, mas com parâmetros diferentes.
+V - Polimorfismo é o conceito que define que mais vários métodos, com o mesmo nome, podem Implementar diferentes formas de executar, dependendo de como ele é acionado.
+V - Override é um tipo de Polimorfismo que só ocorre em caso de herança
+F - Na herança, todos os atributos são herdados, inclusive os privados.
+V - Em Java as subclasses herdam atributos e métodos da classe Object.
+V - Uma classe Java pode herdar de uma única classe na herança simples, e de várias na herança múltipla.
+F - Além de herdar entidades de sua classe-pal, uma classe derivada pode
+modificar métodos herdados, inclusive podendo até acrescentar novas
+entidades, sem afetar a estrutura da classe que a originou.
+
+9). D
+
+10). F
+
+11).  A4 B19 C12 D16 E10 F1 G3 H6 I8 J7 K L15 M20 N13 O3 P18 Q9 R17 S2 T5
+
+12). - Uma classe é algo mais no sentido "abstrato"... Uma coisa que não 
+existe, mas tá ali pra dar forma e caracteristicas a um Objeto.
+     - Um objeto é algo gerado a partir de uma classe. É algo mais no 
+sentido concreto mesmo. Com todas as características e comportamentos
+oriundos da classe e tal.
+
+13).  Tipo de visibilidade do método, void ou tipo do dado que retorna, 
+nome do método e atributo que recebe.
+    Exemplo: public void apenasPrinta(String frase){ }
+
+14). Se trata de uma superclasse que implementa uma interface. Ela possui
+métodos com a anotação @Override que permite sobrescrever os métodos adicionar e excluir.
+
+
