@@ -1,0 +1,15 @@
+Questão 8 - V/F/V/V/F/V/F/V/F/F/V/V/V/V/F/V/V/V/V/V/V/V/F/V/V/F
+
+Questão 9 - D:O encapsulamento é obrigatório para os atributos de uma classe> O Encapsulamento serve para controlar o acesso aos atributos e métodos de uma classe.
+
+Questão 10 - F.
+
+Questão 11 - A/4 B/19 C/12 D/16 E/10 F/1 G/3 H/6 I/8 J/7 K/11 L/15 M/20 N/13 O/3 P/18 Q/9 R/17 S/2 T/5.
+
+Questão 12 - Classe: Utilizamos as classes para tentar representar e caracterizar objetos do mundo real.
+             Objeto: É a representação de uma entidade, que possui atributos e metodos, que faz parte da construção.
+
+Questão 13 - É composta pelo seu tipo, quantidade e ordem de seus parâmetros.   
+
+Questão 14 - É uma superclasse implementando os Dados. Onde há dois métodos Override que estamos utilizando os metodos com nomes iguais, 
+mas com parâmetros diferentes, sendo um para adicionar e o outro para remover.
