@@ -1,0 +1,52 @@
+8-
+v
+v
+f
+f
+f
+v
+v
+v
+f
+v
+v
+v
+v
+v
+v
+v
+v
+v
+f
+v
+v
+v
+
+9-Resposta - D
+
+10- Respostas - C
+
+11- A -> 16                     P -> 18
+B -> 19                         Q -> 9
+C -> 12                         R -> 4
+D -> 16                         S -> 3
+E -> 10                         T -> 4
+F -> 1
+G -> 3
+H -> 4
+I -> 8
+J -> 15
+k -> 11
+L -> 3
+M -> 20
+N -> 13
+O -> 3
+
+12- Respostas - Classe: é uma especie de molde para objetos ou ate mesmo outras classes, nela é aonde
+definimos seus atributos que são tipo suas caracteristicas e seus metodos
+que representaria suas ações ou operações.
+
+objetos: São as caracteristicas da classe, podendo ter varios tipos de visibilidades.
+
+13 - Resposta - Uma assinatura é formada nome do metodo e seus parâmetros, assim possibilitando
+a sobrecarga e assim possibilitando o uso do mesmo metodo de varias formas.
