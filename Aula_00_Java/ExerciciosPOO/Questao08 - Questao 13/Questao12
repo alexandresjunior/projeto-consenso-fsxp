@@ -1,0 +1,5 @@
+Classe: é uma especie de molde para objetos ou ate mesmo outras classes, nela é aonde
+definimos seus atributos que são tipo suas caracteristicas e seus metodos
+que representaria suas ações ou operações.
+
+objetos: São as caracteristicas da classe, podendo ter varios tipos de visibilidades.
