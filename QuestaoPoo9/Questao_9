@@ -1,0 +1,14 @@
+Marque a afirmativa incorreta:
+
+R: (A) Encapsulamento representa a proteção das propriedades referentes a um
+determinado objeto.
+
+(B) O encapsulamento permite concentrar as regras de negócio da classe dentro
+dela mesma.
+
+(C) O encapsulamento é obrigatório para os atributos de uma classe.
+
+(D) Um atributo encapsulado não pode ser acessado diretamente por outro objeto ou
+classe.
+
+(E) Os métodos de acesso do encapsulamento (get/set) não devem ser privados.
