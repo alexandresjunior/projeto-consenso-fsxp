@@ -1,0 +1,59 @@
+	(V)	Java possui menos de 9 tipos primitivos.
+		
+	(F)	Não é possível comparar tipos primitivos utilizando o operador “==”.
+		
+	(V)	Atributos de interface são sempre final.
+		
+	(V)	Palavras reservadas do Java são aquelas que não podem ser usadas
+		para nomear membros de classes.
+		
+	(V)	Em Java toda variável, sem exceção, deve ser declarada.
+		
+	(V)	As subclasses podem adicionar membros próprios.
+		
+	(F)	Variáveis polimórficas podem referenciar objetos de uma classe
+		(subclasse) da superclasse declarada.
+		
+	(V)	Em métodos, o modificador abstract obriga que suas subclasses não
+		abstratas implementem o método.
+		
+	(F)	Um método definido como final pode ser sobreposto apenas por uma
+		classe descendente.
+		
+	(F)	Classe com modificador final só pode ser especializada por herança.
+		
+	(V)	O modificador final estabelece que um atributo não pode ter seu valor
+		modificado.
+		
+	(V)	A visibilidade definida por public permite que um determinado atributo
+		seja acessível a partir de quaisquer métodos, objetos e classes.
+		
+	(F)	O modificador protected não restringe acesso oriundo de outro pacote.
+		
+	(V)	Os atributos e métodos privados de uma classe são acessíveis apenas
+		nos métodos da própria classe.
+		
+	(V)	A estrutura switch aceita qualquer tipo de dado primitivo do Java.
+		
+	(V)	Encapsulamento consiste em proteger os atributos de acessos e
+		modificações não controladas, centralizando o gerenciamento e a
+		validação dos dados antes de serem armazenados pelos objetos.
+		
+	(V)	O encapsulamento permite definir o grau de visibilidade dos atributos de
+		uma classe, estabelecendo restrições e permissões por métodos ao
+		sistema.
+		
+	(F)	Não se implementa o encapsulamento em interface.
+		
+	(V)	A implementação de uma interface obriga a classe a implementar todos
+		os métodos definidos, a não ser que a classe seja definida como
+		abstrata, podendo assim deixar a implementação para as suas
+		subclasses não abstratas.
+		
+	(V)	O polimorfismo de sobrecarga pode ser utilizado para distinguir, em uma
+		determinada classe, dois métodos com o mesmo nome, mas com
+		parâmetros diferentes.
+		
+	(F)	Polimorfismo é o conceito que define que mais vários métodos, com o
+		mesmo nome, podem Implementar diferentes formas de executar,
+		dependendo de como ele é acionado.

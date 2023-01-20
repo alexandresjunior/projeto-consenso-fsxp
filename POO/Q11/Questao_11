@@ -1,0 +1,82 @@
+A respeito das palavras reservadas do Java, associe a coluna da esquerda à
+coluna da direita.
+(A) super (1) Método sem retorno
+
+(B) default (2) Define constantes
+
+(C) new (3) Tipo de dado
+
+(D) this (4) Implementa herança
+
+(E) throw (5) Declara importação
+
+(F) void (6) Implementa uma interface
+
+(G) int (7) Classe
+
+(H) implements (8) Incremento
+
+(I) ++ (9) Laço de repetição
+
+(J) class (10) Levanta uma exceção
+
+(K) get (11) Sem significador
+
+(L) static (12) Instancia a class
+
+(M) public (13) Encerra a execução do método
+
+(N) return (14) Define membro de classe
+
+(O) String (15) Definição de uma classe
+
+(P) abstract (16) Auto referência
+
+(Q) do (17) Referencia classe pai
+
+(R) extends (18) Define classe sem objeto
+
+(S) final (19) Else do switch
+
+(T) import (20) Modificador de visibilidade
+
+
+A - 17
+
+B - 19
+
+C - 12
+
+D - 16
+
+E - 10
+
+F - 1
+
+G - 3
+
+H - 6
+
+I - 8
+
+J - 7
+
+K - 14
+
+L - 15
+
+M - 20
+
+N - 13
+
+O - 3
+
+P - 15
+
+Q - 9
+
+R - 4
+
+S - 11
+
+T - 5
