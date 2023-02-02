@@ -1,0 +1,37 @@
+(A) super       (1) Método sem retorno
+(B) default     (2) Define constantes
+(C) new         (3) Tipo de dado
+(D) this        (4) Implementa herança
+(E) throw       (5) Declara importação
+(F) void        (6) Implementa uma interface
+(G) int         (7) Classe
+(H) implements  (8) Incremento
+(I) ++          (9) Laço de repetição
+(J) class       (10) Levanta uma exceção
+(K) get         (11) Sem significador
+(L) static      (12) Instancia a class
+(M) public      (13) Encerra a execução do método
+(N) return      (14) Define membro de classe
+(O) String      (15) Definição de uma classe
+(P) abstract    (16) Auto referência
+(Q) do          (17) Referencia classe pai
+(R) extends     (18) Define classe sem objeto
+(S) final       (19) Else do switch
+(T) import      (20) Modificador de visibilidade
+
+-- respostas --
+A -> 16                         P -> 18
+B -> 19                         Q -> 9
+C -> 12                         R -> 4
+D -> 16                         S -> 3
+E -> 10                         T -> 4
+F -> 1
+G -> 3
+H -> 4
+I -> 8
+J -> 15
+k -> 11
+L -> 3
+M -> 20
+N -> 13
+O -> 3
