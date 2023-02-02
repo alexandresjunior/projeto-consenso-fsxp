@@ -1,0 +1,9 @@
+A assinatura é dada por meio dos parâmetros:
+
+Método:
+
+public static int valor(int a){return a;}
+
+Mesmo método, mas com uma assisnatura diferente:
+
+public static int valor(int a, int b){return a + b;}
